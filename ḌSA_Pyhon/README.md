@@ -35,3 +35,96 @@ We compare the value to be searched with the value of the root.
 If it’s equal we are done with the search if it’s smaller we know that we need to go to the left subtree because in a binary search tree all the elements in the left subtree are smaller and all the elements in the right subtree are larger. 
 Repeat the above step till no more traversal is possible
 If at any iteration, key is found, return True. Else False.
+
+Binary trees can be categorized into various types based on their structure, properties, and usage. Here are some common types of binary trees:
+
+<H2>Full Binary Tree:</H2>
+
+In a full binary tree, every node has either 0 or 2 children.
+There are no nodes with only one child.
+Every level, except possibly the last, is fully filled.
+
+<H2>Complete Binary Tree:</H2>
+
+In a complete binary tree, all levels are completely filled except possibly for the last level.
+In the last level, nodes are filled from left to right without any gaps.
+Complete binary trees are typically used in heap data structures.
+
+<H2>Perfect Binary Tree:</H2>
+
+A perfect binary tree is both full and complete.
+All internal nodes have exactly two children.
+All leaf nodes are at the same level.
+
+<H2>Balanced Binary Tree:</H2>
+
+A balanced binary tree is a tree where the height of the two subtrees of any node never differs by more than one.
+Balancing ensures that the height of the tree is logarithmic in terms of the number of nodes, leading to efficient operations.
+Degenerate (or Pathological) Binary Tree:
+
+In a degenerate binary tree, each parent node has only one associated child node.
+It essentially becomes a linked list.
+Degenerate trees have poor time complexities for operations like searching, insertion, and deletion.
+
+<H2>Binary Search Tree (BST):</H2>
+
+A binary search tree is a binary tree where the left child of a node has a value less than the parent node, and the right child has a value greater than the parent node.
+BSTs allow for efficient searching, insertion, and deletion operations.
+<H2>Threaded Binary Tree:</H2>
+
+In a threaded binary tree, additional pointers called "threads" are added to the nodes to make traversal easier.
+Threads link nodes according to their inorder successor or predecessor.
+Threaded trees save space by eliminating the need for explicit null pointers.
+These are some of the common types of binary trees. Each type has its unique characteristics and use cases, making them suitable for different scenarios and applications.
+
+Binary trees can be categorized into various types based on their structure, properties, and usage. Here are some common types of binary trees:
+
+<H2>Full Binary Tree:</H2>
+
+In a full binary tree, every node has either 0 or 2 children.
+There are no nodes with only one child.
+Every level, except possibly the last, is fully filled.
+
+<H2Complete Binary Tree:</H2>
+
+In a complete binary tree, all levels are completely filled except possibly for the last level.
+In the last level, nodes are filled from left to right without any gaps.
+Complete binary trees are typically used in heap data structures.
+
+<H2>Perfect Binary Tree:</H2>
+
+A perfect binary tree is both full and complete.
+All internal nodes have exactly two children.
+All leaf nodes are at the same level.
+
+<H2>Balanced Binary Tree:</H2>
+
+A balanced binary tree is a tree where the height of the two subtrees of any node never differs by more than one.
+Balancing ensures that the height of the tree is logarithmic in terms of the number of nodes, leading to efficient operations.
+
+<H2>Degenerate (or Pathological) Binary Tree:</H2>
+
+In a degenerate binary tree, each parent node has only one associated child node.
+It essentially becomes a linked list.
+Degenerate trees have poor time complexities for operations like searching, insertion, and deletion.
+
+<H2>Binary Search Tree (BST):</H2>
+
+A binary search tree is a binary tree where the left child of a node has a value less than the parent node, and the right child has a value greater than the parent node.
+BSTs allow for efficient searching, insertion, and deletion operations.
+
+<H2>Threaded Binary Tree:</H2>
+
+In a threaded binary tree, additional pointers called "threads" are added to the nodes to make traversal easier.
+Threads link nodes according to their inorder successor or predecessor.
+Threaded trees save space by eliminating the need for explicit null pointers.
+These are some of the common types of binary trees. Each type has its unique characteristics and use cases, making them suitable for different scenarios and applications.
+
+
+
+
+
+
+
+
+
