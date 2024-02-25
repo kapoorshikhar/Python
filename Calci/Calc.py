@@ -1,7 +1,15 @@
 i=input()
-while(i=="Yes"||i=="yes"||i="Y"||i="y"||i="YES"):
+while(i=="Yes") or (i=="yes") or (i=="Y") or (i=="y") or (i=="YES"):
   def Calc(a,b,p):
-      print("The Answer is ",apb)   
+    if (p=='+'):
+      print("The Answer is ",a+b) 
+    if (p=='*'):
+      print("The Answer is ",a+b) 
+    
+    if (p=='/'):
+       print("The Answer is ",a+b) 
+    if (p=='-'):
+       print("The Answer is ",a+b) 
     
   
-Calc(4,5,*)
+Calc(4,5,'*')
